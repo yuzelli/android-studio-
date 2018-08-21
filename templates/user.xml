@@ -1,0 +1,108 @@
+<templateSet group="user">
+  <template name="toast" value="android.widget.Toast.makeText(getApplicationContext(),&quot;$CONTENT$&quot;,android.widget.Toast.LENGTH_SHORT).show();" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="syso" value="System.out.println(&quot;$END$&quot;);" description="syso" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="find" value="findViewById(R.id.$ID$);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="iid" value="android:id=&quot;@+id/$ID$&quot;" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="fore" value="for ($iterable_type$ $iterable_element$ : $iterable$) {&#10;&#9;$cursor$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="iterable_type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="iterable_element" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="iterable" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="cursor" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="note_" value="/*-----------------$note$--------------------*/" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="note" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="_width" value="android:layout_width=&quot;match_parent&quot;&#10;android:layout_height=&quot;wrap_content$HEIGHT$&quot;" description="_width" toReformat="true" toShortenFQNames="true">
+    <variable name="HEIGHT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="false" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="note1" value="/**$note$*/" description="note1" toReformat="true" toShortenFQNames="true">
+    <variable name="note" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="note2" value="/*--------------- $note$ ---------------*/" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="note" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="note3" value="/*=============== $note$ ===============*/" description="note3" toReformat="true" toShortenFQNames="true">
+    <variable name="note" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="note4" value="/*############### $note$ ###############*/" description="note4" toReformat="true" toShortenFQNames="true">
+    <variable name="note" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="note5" value="/*#######################################*/" description="note5" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sw" value="switch ($key$) {&#10;            case $value$:&#10;&#10;                break;&#10;&#10;            default:&#10;                break;&#10;        }" description="sw" toReformat="true" toShortenFQNames="true">
+    <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for (int i = 0; i &lt; $length$; i++) {&#10;&#10;        }" description="for" toReformat="true" toShortenFQNames="true">
+    <variable name="length" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sysof" value="java.lang.System.out.println(&quot;--------------$note$--------------&quot;);" description="sysof" toReformat="true" toShortenFQNames="true">
+    <variable name="note" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
